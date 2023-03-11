@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-import define from "https://api.observablehq.com/@anaglyph-ic/anaverse-the-shortest-introduction@170.js?v=latest";
+import define from "https://api.observablehq.com/@anaglyph-ic/anaverse-the-shortest-introduction@latest.js";
 new Runtime().module(define, name => {
   if (name === "title") return new Inspector(document.querySelector("#observablehq-title-6567cfd0"));
   if (name === "firstpar") return new Inspector(document.querySelector("#observablehq-firstpar-6567cfd0"));
