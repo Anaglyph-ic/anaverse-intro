@@ -21,16 +21,16 @@
     padding: 2%;
     padding-top: 0px;
     ">
-<div class="centerbg" id="observablehq-title-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-firstpar-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-photos-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-firstparbis-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-genartloop-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-secpar-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-anavloop-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-thirpar-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-anavgov-6d26a3bf"></div>
-<div class="centerbg" id="observablehq-fourthpar-6d26a3bf"></div></div>
+<div class="centerbg" id="observablehq-title-63c51843"></div>
+<div class="centerbg" id="observablehq-firstpar-63c51843"></div>
+<div class="centerbg" id="observablehq-photos-63c51843"></div>
+<div class="centerbg" id="observablehq-firstparbis-63c51843"></div>
+<div class="centerbg" id="observablehq-genartloop-63c51843"></div>
+<div class="centerbg" id="observablehq-secpar-63c51843"></div>
+<div class="centerbg" id="observablehq-anavloop-63c51843"></div>
+<div class="centerbg" id="observablehq-thirpar-63c51843"></div>
+<div class="centerbg" id="observablehq-govloop-63c51843"></div>
+<div class="centerbg" id="observablehq-fourthpar-63c51843"></div></div>
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
@@ -38,16 +38,17 @@
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 import define from "https://api.observablehq.com/@anaglyph-ic/anaverse-the-shortest-introduction@latest.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "title") return new Inspector(document.querySelector("#observablehq-title-6d26a3bf"));
-  if (name === "firstpar") return new Inspector(document.querySelector("#observablehq-firstpar-6d26a3bf"));
-    if (name === "photos") return new Inspector(document.querySelector("#observablehq-photos-6d26a3bf"));  
-    if (name === "firstparbis") return new Inspector(document.querySelector("#observablehq-firstparbis-6d26a3bf"));
-  if (name === "genartloop") return new Inspector(document.querySelector("#observablehq-genartloop-6d26a3bf"));
-  if (name === "secpar") return new Inspector(document.querySelector("#observablehq-secpar-6d26a3bf"));
-  if (name === "anavloop") return new Inspector(document.querySelector("#observablehq-anavloop-6d26a3bf"));
-  if (name === "thirpar") return new Inspector(document.querySelector("#observablehq-thirpar-6d26a3bf"));
-  if (name === "anavgov") return new Inspector(document.querySelector("#observablehq-anavgov-6d26a3bf"));
-  if (name === "fourthpar") return new Inspector(document.querySelector("#observablehq-fourthpar-6d26a3bf"));
+  if (name === "title") return new Inspector(document.querySelector("#observablehq-title-63c51843"));
+  if (name === "firstpar") return new Inspector(document.querySelector("#observablehq-firstpar-63c51843"));
+    if (name === "photos") return new Inspector(document.querySelector("#observablehq-photos-63c51843"));  
+    if (name === "firstparbis") return new Inspector(document.querySelector("#observablehq-firstparbis-63c51843"));
+  if (name === "genartloop") return new Inspector(document.querySelector("#observablehq-genartloop-63c51843"));
+  if (name === "secpar") return new Inspector(document.querySelector("#observablehq-secpar-63c51843"));
+  if (name === "anavloop") return new Inspector(document.querySelector("#observablehq-anavloop-63c51843"));
+  if (name === "thirpar") return new Inspector(document.querySelector("#observablehq-thirpar-63c51843"));
+  if (name === "anavgov") return new Inspector(document.querySelector("#observablehq-anavgov-63c51843"));
+  if (name === "fourthpar") return new Inspector(document.querySelector("#observablehq-fourthpar-63c51843"));
+      if (name === "govloop") return new Inspector(document.querySelector("#observablehq-govloop-63c51843"));
 });
 </script>
 </body>
